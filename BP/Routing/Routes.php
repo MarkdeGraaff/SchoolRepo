@@ -3,7 +3,7 @@
 AutoLoader::register();
 
 Route::set('page-link', function() {
-  ExamplePage::CreateView('ExamplePage');
+  ExampleController::CreateView('ExamplePage');
 });
 
 Route::callback();
